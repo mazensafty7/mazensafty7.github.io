@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DATAVORTEX</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarsExample09">
+				<ul class="navbar-nav mr-auto"> <!-- Use mr-auto to push items to the right -->
+					<li class="nav-item"><a class="nav-link" href="#section-home">DataVortex</a></li> <!-- Add your name here -->
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<section class="site-hero" style="background-image: url(images/Profile3.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center">
+				<div class="col-md-10 text-center pt-5">
+					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Mazen Elsafty</strong></h1>
+					<strong class="d-block text-white text-uppercase letter-spacing">Data Scientist | Supervised ML Engineer</strong>
+					<strong class="d-block text-white text-uppercase letter-spacing">and this is My Portfolio</strong>
+					<a href="https://www.kaggle.com/mazensafty" class="btn btn-primary mt-3">Kaggle</a>
+					<div class="col-md-12 text-center mt-3">
+						<p>
+							<a href="https://github.com/mazensafty7" class="social-item"><span class="icon-github"></span></a>
+							<a href="https://www.linkedin.com/in/mazen-elsafty-417853291/" class="social-item"><span class="icon-linkedin2"></span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+
+    <style>
+	.social-item {
+    font-size: 2em; 
+    margin: 0 10px;
+    color: white; /* Keep the original color */
+    transition: transform 0.3s ease; /* Only transition the scale effect */
+}
+
+.social-item:hover {
+    transform: scale(1.2); /* Pop effect: scale up by 20% on hover */
+}
+	</style>
+
+
+
+
+	<section class="site-section" id="section-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2>My <strong>Projects</strong></h2>
+				</div>
+			</div>
+			<div class="filters">
+				<ul>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".Science">Data Science And ML</li>
+					<li data-filter=".Analysis">Data Analysis</li>
+					<li data-filter=".Scraping">Web Scraping</li>
+					<li data-filter=".SQL">SQL</li>
+				</ul>
+			</div>
+
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-portfolio col-sm-4 all Science">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Ames_Description.jpg" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Ames_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/Ames-House-Price-Prediction.git" target="_blank">Ames House Price Prediction
+							</a></h4>
+							<div class="cat">Data Science And ML</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Science">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Charity_Description.png" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Charity_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/Charity_Donor_Predictor.git" target="_blank">Charity Donor Predictor</a></h4>
+							<div class="cat">Data Science And ML</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Science">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/California_Description.jpg" class="img-pop-up">  
+									<img class="image img-fluid" src="images/California_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/California_House_Price_Prediction.git" target="_blank">California House Price Prediction</a></h4>
+							<div class="cat">Data Science And ML</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Science">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Titanic_Description.png" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Titanic_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/Titanic-Prediction.git" target="_blank">Titanic Prediction</a></h4>
+							<div class="cat">Data Science And ML</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Analysis">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Movies_Description.jpg" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Movies_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/Movies-Analysis.git" target="_blank">Movies Analysis With Python</a></h4>
+							<div class="cat">Data Analysis</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Scraping">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Scrap_Description.png" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Chicago_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/Chicago-Real-Estate-Web-Scraping-Project.git" target="_blank">Chicago Real Estate Web Scraping</a></h4>
+							<div class="cat">Web Scraping</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+					<div class="single-portfolio col-sm-4 all Science">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<!-- Wrap the img tag with the a tag to make the whole image clickable -->
+								<a href="images/Spam_Description.png" class="img-pop-up">  
+									<img class="image img-fluid" src="images/Spam_Cover.png" alt="">
+									<div class="middle">
+										<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+									</div>
+								</a>                                  
+							</div>                                  
+						</div>
+						<div class="p-inner">
+							<h4><a href="https://github.com/mazensafty7/SMS_Spam_Classifier_using_Naive_Bayes.git" target="_blank">SMS Spam Classifier using Naive Bayes</a></h4>
+							<div class="cat">Data Science And ML</div>
+						</div>                                         
+					</div>
+					
+					<!-- Magnific Popup CSS -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+					
+					<!-- jQuery -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					
+					<!-- Magnific Popup JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+					
+					<!-- Script to Show Popup -->
+					<script>
+						$(document).ready(function() {
+							$('.img-pop-up').magnificPopup({
+								type: 'image', // Specifies the content type
+							});
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- .section -->
+	 <style>
+		.single-portfolio {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.single-portfolio:hover {
+    transform: scale(1.05); /* Scale up by 5% */
+    z-index: 1; /* Make sure it pops above other elements */
+}
+	 </style>
+
+	
+	<section class="site-section" id="section-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>My <strong>Resume</strong></h2>
+					</div>
+				</div>
+				
+				<!-- Education Section -->
+				<div class="col-md-12">
+					<h2 class="mb-5">Education</h2>
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> September 2021 - October 2025</span>
+						<h3>Bachelor's Degree in Information Technology</h3>
+						<p>Pursuing a Bachelor's Degree in Information Technology with a specialization in Information Technology and Data Management. <br><br> GPA : 3.7</p>
+						<span class="school">Egyptian e-Learning University (EELU)</span>
+					</div>
+				</div>
+				
+				<!-- Experience Section -->
+				<div class="col-md-12">
+					<h2 class="mb-5">Experience</h2>
+					
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> April 2024 - Present</span>
+						<h3>IBM Data Scientist , Soft Skills , English</h3>
+						<p>The Digital Egypt Pioneers Initiative (DEPI), launched by the Egyptian Ministry of Communications and Information Technology, aims to develop a skilled workforce in digital technology and data science through training programs and certifications in areas like data science and data analysis:
+						<ul> 
+							<li>Engaged in a comprehensive IBM Data Science grant program supported by the Ministry of Communications and Information Technology (DEPI).</li> 
+							<li>Gaining hands-on experience with industry-leading tools and technologies through IBM Data Science courses, focusing on data analysis, machine learning, data visualization, data cleaning, data exploration (EDA), statistics, web scraping, Python programming, and SQL.</li> 
+							<li>Receiving extensive training in freelancing, soft skills development, and English proficiency to support professional growth.</li> 
+							<li>Actively involved in real-world data science projects to apply theoretical knowledge and hone practical skills.</li> 
+						</ul> 
+						</p>
+						<span class="school">DEPI</span>
+					</div>
+	
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> August 2024 - September 2024</span>
+						<h3>Data Scientist</h3>
+						<p>CodeAlpha is a leading technology and software development company focused on providing innovative solutions in data science, machine learning, and software engineering:
+						<ul> 
+							<li>Developed and implemented machine learning models to predict housing prices using linear regression.</li> 
+							<li>Analyzed and compared product performance in an A/B testing scenario using Bayesian analysis and Chi-Square tests, leading to actionable insights for marketing strategy improvement.</li> 
+							<li>Built and trained an LSTM model for predicting Microsoft stock prices, leveraging temporal dependencies in stock market data to enhance prediction accuracy.</li> 
+							<li>Collaborated in data collection, preprocessing, and exploratory data analysis, delivering results that influenced decision-making and strategic planning.</li> 
+						</ul> 
+						</p>
+						<span class="school">CodeAlpha</span>
+					</div>
+	
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> August 2024 - September 2024</span>
+						<h3>Data Scientist</h3>
+						<p>Bharat Intern is a premier internship platform dedicated to bridging the gap between education and industry. The initiative connects students and young professionals with meaningful internship opportunities across various fields, including technology, data science, marketing, and more:
+						<ul> 
+							<li>Completed a Titanic Survival Prediction project, employing various machine learning models and performance evaluation techniques to enhance predictive accuracy.</li> 
+							<li>Worked on a CNN-based image classification project, distinguishing between cats and dogs, gaining experience in deep learning and neural network frameworks.</li> 
+							<li>Developed skills in data preprocessing, model training, and fine-tuning, contributing to a collaborative and learning-focused environment.</li> 
+						</ul> 
+						</p>
+						<span class="school">BharatIntern</span>
+					</div>
+	
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> August 2024 - September 2024</span>
+						<h3>Data Analyst</h3>
+						<p>NeuronetiX is an innovative technology company specializing in data analytics and artificial intelligence solutions. The company focuses on harnessing the power of data to provide actionable insights and drive decision-making across various industries:
+						<ul> 
+							<li>Performed comprehensive data cleaning, preprocessing, and analysis to uncover patterns and trends within large datasets.</li> 
+							<li>Utilized statistical techniques and data visualization tools to support decision-making processes and provide actionable insights.</li> 
+							<li>Strengthened expertise in Python, Excel, and Power BI for effective data manipulation and presentation.</li> 
+						</ul> 
+						</p>
+						<span class="school">NeuronetiX</span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="logos-section">
+			<div class="logos">
+				<img src="images/ministry.png" alt="Ministry Logo" class="company-logo">
+				<img src="images/DEPI.png" alt="DEPI Logo" class="company-logo">
+				<img src="images/NeuronetiX.png" alt="NeuronetiX Logo" class="company-logo">
+				<img src="images/bharat.png" alt="BharatIntern Logo" class="company-logo">
+			</div>
+		</div>
+	</section>
+
+	<style>
+		.logos-section {
+    text-align: center; /* Center the section */
+    margin-top: 30px;   /* Space above the logos */
+}
+
+.logos {
+    display: inline-block;  /* Keep the logos in a single line */
+}
+
+.company-logo {
+    height: 80px;  /* Adjust logo height */
+    width: auto;   /* Maintain aspect ratio */
+    margin: 0 45px; /* Spacing between logos */
+    display: inline-block; /* Align the logos in a row */
+	transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+.company-logo:hover {
+    transform: scale(1.1); /* Zoom in slightly */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow to make it 'pop' */
+}
+	</style>
+
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="images/Profile1.jpeg" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Data Scientist and Supervised Machine Learning Engineer.</p>
+					<p class="mb-5  ">specialize in using data science and machine learning to drive impactful solutions. My focus is on building predictive models, analyzing complex datasets, and extracting actionable insights to solve real-world problems. I’m continuously improving my skills in data science, machine learning, and data analysis, while expanding my expertise in tools like Excel and Power BI. I am also actively working on new projects to further enhance my abilities and stay at the forefront of the field. My passion for learning and applying data-driven techniques allows me to deliver meaningful results in every project I take on.</p>
+
+					<p>
+						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+						<a href="https://drive.google.com/file/d/1JKxu62Mf7dVROxgApMVtNvHpRdMDsr8j/view" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<!-- <section class="site-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-12">
+					<div class="section-heading text-center">
+						<h2>Client <strong>Testimonial</strong></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
+						</blockquote>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
+						</blockquote>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
+						</blockquote>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+					<div class="block-47 d-flex mb-5">
+						<div class="block-47-image">
+							<img src="images/person_4.jpg" alt="Image placeholder" class="img-fluid">
+						</div>
+						<blockquote class="block-47-quote">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
+						</blockquote>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section> -->
+
+
+	<section class="site-section pb-0" id="section-services">
+		<div class="container">
+	
+			<div class="row mb-4">
+				<div class="col-md-12">
+					<div class="section-heading text-center">
+						<h2>My <strong>Services</strong></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+	
+				<div class="col-md-12 text-center mb-5">
+					<div class="site-service-item site-animate" data-animate-effect="fadeIn">
+						<span class="icon">
+							<span class="icon-browser2"></span>
+						</span>
+						<h3 class="mb-4">Data Science and Machine Learning Services</h3>
+						<p>Unlock the potential of your data with our expertise in data science and machine learning. We offer:</p>
+						<ul>
+							<li><strong>Exploratory Data Analysis:</strong> Identify trends and insights through advanced visualization and statistical analysis.</li>
+							<li><strong>Data Cleaning and Preprocessing:</strong> Professionally handle missing values, outliers, feature engineering, and scaling to prepare your data for analysis.</li>
+							<li><strong>Custom Model Development:</strong> Build tailored machine learning models, including Decision Trees, Random Forest, SVM, and KNN, optimized using GridSearchCV and Cross-validation.</li>
+							<li><strong>Data Analysis:</strong> Dive deep into your data to uncover patterns and insights, aiding in strategic decision-making.</li>
+							<li><strong>Model Optimization:</strong> Fine-tune models for accuracy and reliability, utilizing ensemble methods and clustering techniques.</li>
+							<li><strong>Deployment Support:</strong> Assist with implementation and maintenance in production environments using MLflow, Flask, and cloud services.</li>
+						</ul>
+						<p><a href="images/Data Science and Machine Learning Services.pdf" target="_blank" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+					</div>
+				</div>
+	
+				<div class="col-md-12 text-center mb-5">
+					<div class="site-service-item site-animate" data-animate-effect="fadeIn">
+						<span class="icon">
+							<span class="icon-video2"></span>
+						</span>
+						<h3 class="mb-4">Web Scraping</h3>
+        <p>Enhance your data collection with our Web Scraping Service. We specialize in:</p>
+        <ul>
+            <li><strong>Custom Web Scraping:</strong> Tailored solutions to extract data from any website according to your requirements.</li>
+            <li><strong>Data Cleaning:</strong> Ensure scraped data is organized and ready for analysis.</li>
+            <li><strong>Data Storage:</strong> Options for storing scraped data in various formats such as CSV or databases.</li>
+            <li><strong>Scalability:</strong> Handle large volumes of data across multiple websites efficiently.</li>
+            <li><strong>Support and Maintenance:</strong> Ongoing support to ensure scrapers are running smoothly.</li>
+        </ul>
+        <p><a href="images/Web Scraping Service.pdf" target="_blank" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	<section class="site-section" id="section-blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Posts on <strong>Linkedin</strong></h2>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_datascience-machinelearning-ibm-activity-7244817480194396160-ZBeA?utm_source=share&utm_medium=member_desktop">
+							<img src="images/Relations_Post.png" alt="Image placeholder" class="img-fluid same-size-img">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_datascience-machinelearning-ibm-activity-7244817480194396160-ZBeA?utm_source=share&utm_medium=member_desktop">Ames Insights</a></h3>
+							<p class="mb-4">I used the Decision Tree model to explore the Ames Housing dataset and accurately predict house prices based on key features.</p>
+	
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> Sep 28, 2024</a>
+								<a href="#"><span class="icon-bubble"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_projectdocumentation-activity-7249493405804728322-beTw?utm_source=share&utm_medium=member_desktop">
+							<img src="images/Charity Post.jpg" alt="Image placeholder" class="img-fluid same-size-img">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_projectdocumentation-activity-7249493405804728322-beTw?utm_source=share&utm_medium=member_desktop">Charity Donors Insights</a></h3>
+							<p class="mb-4">I built a machine learning model to help charities identify potential donors by predicting whether individuals earn more than $50K annually.</p>
+	
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> Oct 10, 2024</a>
+								<a href="#"><span class="icon-bubble"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_datascience-machinelearning-decisiontree-activity-7244492039482994688-xMSm?utm_source=share&utm_medium=member_desktop">
+							<img src="images/California Post.png" alt="Image placeholder" class="img-fluid same-size-img">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.linkedin.com/posts/mazen-elsafty-417853291_datascience-machinelearning-decisiontree-activity-7244492039482994688-xMSm?utm_source=share&utm_medium=member_desktop">California Insights</a></h3>
+							<p class="mb-4">Oceanfront houses are highly desirable and command higher prices, often owned by wealthier individuals seeking prime locations.</p>
+	
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> Sep 25, 2024</a>
+								<a href="#"><span class="icon-bubble"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<style>
+		.blog-entry {
+    height: 550px; /* Increased height for all boxes */
+    overflow: hidden; /* Hide any overflow content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.same-size-img {
+    height: 350px; /* Increased height for all images */
+    object-fit: cover; /* Ensure the images fill the space and maintain aspect ratio */
+}
+
+.blog-entry-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure text container fills the available space */
+}
+
+.blog-entry-text h3 {
+    margin-top: 15px; /* Adjusted margin for better spacing */
+}
+
+.meta {
+    margin-top: auto; /* Push the meta info to the bottom */
+}
+	</style>
+
+
+	
+	<!-- Add this CSS in your stylesheet -->
+	<style>
+		.same-size-img {
+			width: 100%;
+			height: 250px; /* Adjust this height value as needed */
+			object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the given area */
+		}
+	</style>
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="" class="site-form">
+						<h3 class="mb-5">Get In Touch</h3>
+						<a href="https://forms.gle/FnNu2AQaTquH6cDZA" class="btn btn-primary mt-3">Send Message</a>
+				</div>
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							mazensafty2003@gmail.com
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+201016203122
+						</li>
+						<li>
+							<span class="text-uppercase">Address</span>
+							Alexandria, Egypt <br>
+							Elmalik Street, Montazah
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="https://github.com/mazensafty7" class="social-item"><span class="icon-github"></span></a>
+						<a href="https://www.linkedin.com/in/mazen-elsafty-417853291/" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="js/vendor/jquery.stellar.min.js"></script>
+	<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Google Map -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    	<script src="js/google-map.js"></script> -->
+
+    </body>
+    </html>
